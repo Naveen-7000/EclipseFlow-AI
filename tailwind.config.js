@@ -7,11 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        sans:['var(--font-dm-sans)']
-      }
+      fontFamily: {
+        sans: ["var(--font-dm-sans)"],
+      },
     },
-    
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
